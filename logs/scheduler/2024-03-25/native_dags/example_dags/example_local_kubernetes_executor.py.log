@@ -1,0 +1,946 @@
+[2024-03-25 19:12:12,402] {processor.py:153} INFO - Started process (PID=1865941) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:12:12,403] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:12:12,405] {logging_mixin.py:115} INFO - [2024-03-25 19:12:12,404] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:12:12,429] {logging_mixin.py:115} INFO - [2024-03-25 19:12:12,429] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:12:12,429] {logging_mixin.py:115} INFO - [2024-03-25 19:12:12,429] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:12:12,429] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:12:12,439] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.043 seconds
+[2024-03-25 19:12:44,912] {processor.py:153} INFO - Started process (PID=1866295) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:12:44,914] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:12:44,915] {logging_mixin.py:115} INFO - [2024-03-25 19:12:44,915] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:12:44,935] {logging_mixin.py:115} INFO - [2024-03-25 19:12:44,935] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:12:44,935] {logging_mixin.py:115} INFO - [2024-03-25 19:12:44,935] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:12:44,936] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:12:44,945] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.039 seconds
+[2024-03-25 19:13:18,383] {processor.py:153} INFO - Started process (PID=1866632) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:13:18,389] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:13:18,391] {logging_mixin.py:115} INFO - [2024-03-25 19:13:18,390] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:13:18,415] {logging_mixin.py:115} INFO - [2024-03-25 19:13:18,414] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:13:18,415] {logging_mixin.py:115} INFO - [2024-03-25 19:13:18,415] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:13:18,415] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:13:18,425] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.049 seconds
+[2024-03-25 19:13:51,115] {processor.py:153} INFO - Started process (PID=1867036) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:13:51,116] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:13:51,117] {logging_mixin.py:115} INFO - [2024-03-25 19:13:51,117] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:13:51,141] {logging_mixin.py:115} INFO - [2024-03-25 19:13:51,140] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:13:51,141] {logging_mixin.py:115} INFO - [2024-03-25 19:13:51,141] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:13:51,141] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:13:51,151] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.043 seconds
+[2024-03-25 19:14:25,461] {processor.py:153} INFO - Started process (PID=1867384) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:14:25,466] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:14:25,466] {logging_mixin.py:115} INFO - [2024-03-25 19:14:25,466] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:14:25,478] {logging_mixin.py:115} INFO - [2024-03-25 19:14:25,478] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:14:25,478] {logging_mixin.py:115} INFO - [2024-03-25 19:14:25,478] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:14:25,478] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:14:25,487] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2024-03-25 19:14:58,090] {processor.py:153} INFO - Started process (PID=1867715) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:14:58,096] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:14:58,098] {logging_mixin.py:115} INFO - [2024-03-25 19:14:58,097] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:14:58,116] {logging_mixin.py:115} INFO - [2024-03-25 19:14:58,116] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:14:58,116] {logging_mixin.py:115} INFO - [2024-03-25 19:14:58,116] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:14:58,116] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:14:58,125] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2024-03-25 19:15:30,155] {processor.py:153} INFO - Started process (PID=1868049) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:15:30,157] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:15:30,158] {logging_mixin.py:115} INFO - [2024-03-25 19:15:30,157] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:15:30,178] {logging_mixin.py:115} INFO - [2024-03-25 19:15:30,178] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:15:30,178] {logging_mixin.py:115} INFO - [2024-03-25 19:15:30,178] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:15:30,178] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:15:30,192] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2024-03-25 19:16:02,895] {processor.py:153} INFO - Started process (PID=1868396) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:16:02,901] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:16:02,902] {logging_mixin.py:115} INFO - [2024-03-25 19:16:02,902] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:16:02,927] {logging_mixin.py:115} INFO - [2024-03-25 19:16:02,926] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:16:02,927] {logging_mixin.py:115} INFO - [2024-03-25 19:16:02,927] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:16:02,927] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:16:02,937] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.048 seconds
+[2024-03-25 19:16:36,205] {processor.py:153} INFO - Started process (PID=1868766) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:16:36,205] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:16:36,206] {logging_mixin.py:115} INFO - [2024-03-25 19:16:36,206] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:16:36,220] {logging_mixin.py:115} INFO - [2024-03-25 19:16:36,220] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:16:36,220] {logging_mixin.py:115} INFO - [2024-03-25 19:16:36,220] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:16:36,221] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:16:36,230] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2024-03-25 19:17:09,433] {processor.py:153} INFO - Started process (PID=1869196) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:17:09,434] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:17:09,434] {logging_mixin.py:115} INFO - [2024-03-25 19:17:09,434] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:17:09,449] {logging_mixin.py:115} INFO - [2024-03-25 19:17:09,448] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:17:09,449] {logging_mixin.py:115} INFO - [2024-03-25 19:17:09,449] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:17:09,449] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:17:09,455] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2024-03-25 19:17:43,232] {processor.py:153} INFO - Started process (PID=1869531) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:17:43,238] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:17:43,239] {logging_mixin.py:115} INFO - [2024-03-25 19:17:43,239] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:17:43,259] {logging_mixin.py:115} INFO - [2024-03-25 19:17:43,259] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:17:43,259] {logging_mixin.py:115} INFO - [2024-03-25 19:17:43,259] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:17:43,260] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:17:43,268] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.042 seconds
+[2024-03-25 19:18:15,848] {processor.py:153} INFO - Started process (PID=1869871) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:18:15,853] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:18:15,854] {logging_mixin.py:115} INFO - [2024-03-25 19:18:15,854] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:18:15,871] {logging_mixin.py:115} INFO - [2024-03-25 19:18:15,871] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:18:15,871] {logging_mixin.py:115} INFO - [2024-03-25 19:18:15,871] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:18:15,871] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:18:15,877] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.036 seconds
+[2024-03-25 19:18:50,212] {processor.py:153} INFO - Started process (PID=1870270) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:18:50,218] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:18:50,219] {logging_mixin.py:115} INFO - [2024-03-25 19:18:50,219] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:18:50,250] {logging_mixin.py:115} INFO - [2024-03-25 19:18:50,249] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:18:50,250] {logging_mixin.py:115} INFO - [2024-03-25 19:18:50,250] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:18:50,250] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:18:50,257] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2024-03-25 19:19:23,280] {processor.py:153} INFO - Started process (PID=1870616) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:19:23,285] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:19:23,286] {logging_mixin.py:115} INFO - [2024-03-25 19:19:23,286] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:19:23,301] {logging_mixin.py:115} INFO - [2024-03-25 19:19:23,301] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:19:23,301] {logging_mixin.py:115} INFO - [2024-03-25 19:19:23,301] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:19:23,301] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:19:23,309] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds
+[2024-03-25 19:19:57,016] {processor.py:153} INFO - Started process (PID=1870959) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:19:57,022] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:19:57,023] {logging_mixin.py:115} INFO - [2024-03-25 19:19:57,023] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:19:57,055] {logging_mixin.py:115} INFO - [2024-03-25 19:19:57,055] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:19:57,055] {logging_mixin.py:115} INFO - [2024-03-25 19:19:57,055] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:19:57,055] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:19:57,063] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2024-03-25 19:20:29,078] {processor.py:153} INFO - Started process (PID=1871297) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:20:29,081] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:20:29,081] {logging_mixin.py:115} INFO - [2024-03-25 19:20:29,081] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:20:29,097] {logging_mixin.py:115} INFO - [2024-03-25 19:20:29,097] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:20:29,097] {logging_mixin.py:115} INFO - [2024-03-25 19:20:29,097] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:20:29,097] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:20:29,104] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2024-03-25 19:21:02,445] {processor.py:153} INFO - Started process (PID=1871627) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:21:02,451] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:21:02,452] {logging_mixin.py:115} INFO - [2024-03-25 19:21:02,452] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:21:02,489] {logging_mixin.py:115} INFO - [2024-03-25 19:21:02,489] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:21:02,490] {logging_mixin.py:115} INFO - [2024-03-25 19:21:02,489] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:21:02,490] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:21:02,498] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.060 seconds
+[2024-03-25 19:21:34,952] {processor.py:153} INFO - Started process (PID=1872129) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:21:34,958] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:21:34,960] {logging_mixin.py:115} INFO - [2024-03-25 19:21:34,959] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:21:34,999] {logging_mixin.py:115} INFO - [2024-03-25 19:21:34,998] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:21:34,999] {logging_mixin.py:115} INFO - [2024-03-25 19:21:34,999] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:21:34,999] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:21:35,008] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.064 seconds
+[2024-03-25 19:22:05,734] {processor.py:153} INFO - Started process (PID=1872460) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:22:05,735] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:22:05,735] {logging_mixin.py:115} INFO - [2024-03-25 19:22:05,735] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:22:05,759] {logging_mixin.py:115} INFO - [2024-03-25 19:22:05,759] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:22:05,760] {logging_mixin.py:115} INFO - [2024-03-25 19:22:05,759] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:22:05,760] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:22:05,768] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.037 seconds
+[2024-03-25 19:22:39,575] {processor.py:153} INFO - Started process (PID=1872809) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:22:39,581] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:22:39,582] {logging_mixin.py:115} INFO - [2024-03-25 19:22:39,582] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:22:39,611] {logging_mixin.py:115} INFO - [2024-03-25 19:22:39,611] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:22:39,611] {logging_mixin.py:115} INFO - [2024-03-25 19:22:39,611] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:22:39,611] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:22:39,619] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.046 seconds
+[2024-03-25 19:23:12,989] {processor.py:153} INFO - Started process (PID=1873218) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:23:12,995] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:23:12,997] {logging_mixin.py:115} INFO - [2024-03-25 19:23:12,997] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:23:13,023] {logging_mixin.py:115} INFO - [2024-03-25 19:23:13,023] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:23:13,023] {logging_mixin.py:115} INFO - [2024-03-25 19:23:13,023] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:23:13,024] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:23:13,031] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.049 seconds
+[2024-03-25 19:23:46,894] {processor.py:153} INFO - Started process (PID=1873566) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:23:46,895] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:23:46,895] {logging_mixin.py:115} INFO - [2024-03-25 19:23:46,895] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:23:46,916] {logging_mixin.py:115} INFO - [2024-03-25 19:23:46,915] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:23:46,916] {logging_mixin.py:115} INFO - [2024-03-25 19:23:46,916] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:23:46,916] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:23:46,924] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2024-03-25 19:24:23,904] {processor.py:153} INFO - Started process (PID=1874005) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:24:23,908] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:24:23,908] {logging_mixin.py:115} INFO - [2024-03-25 19:24:23,908] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:24:23,921] {logging_mixin.py:115} INFO - [2024-03-25 19:24:23,921] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:24:23,921] {logging_mixin.py:115} INFO - [2024-03-25 19:24:23,921] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:24:23,921] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:24:23,927] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2024-03-25 19:24:55,976] {processor.py:153} INFO - Started process (PID=1874364) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:24:55,976] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:24:55,977] {logging_mixin.py:115} INFO - [2024-03-25 19:24:55,977] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:24:55,989] {logging_mixin.py:115} INFO - [2024-03-25 19:24:55,989] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:24:55,989] {logging_mixin.py:115} INFO - [2024-03-25 19:24:55,989] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:24:55,990] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:24:55,997] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2024-03-25 19:25:28,716] {processor.py:153} INFO - Started process (PID=1874757) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:25:28,723] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:25:28,724] {logging_mixin.py:115} INFO - [2024-03-25 19:25:28,724] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:25:28,752] {logging_mixin.py:115} INFO - [2024-03-25 19:25:28,752] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:25:28,752] {logging_mixin.py:115} INFO - [2024-03-25 19:25:28,752] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:25:28,752] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:25:28,759] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.051 seconds
+[2024-03-25 19:26:01,059] {processor.py:153} INFO - Started process (PID=1875094) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:26:01,065] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:26:01,066] {logging_mixin.py:115} INFO - [2024-03-25 19:26:01,066] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:26:01,100] {logging_mixin.py:115} INFO - [2024-03-25 19:26:01,099] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:26:01,100] {logging_mixin.py:115} INFO - [2024-03-25 19:26:01,100] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:26:01,100] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:26:01,110] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.058 seconds
+[2024-03-25 19:26:35,875] {processor.py:153} INFO - Started process (PID=1875471) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:26:35,876] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:26:35,877] {logging_mixin.py:115} INFO - [2024-03-25 19:26:35,877] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:26:35,904] {logging_mixin.py:115} INFO - [2024-03-25 19:26:35,903] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:26:35,904] {logging_mixin.py:115} INFO - [2024-03-25 19:26:35,904] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:26:35,904] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:26:35,912] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.044 seconds
+[2024-03-25 19:27:09,872] {processor.py:153} INFO - Started process (PID=1875808) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:27:09,878] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:27:09,879] {logging_mixin.py:115} INFO - [2024-03-25 19:27:09,879] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:27:09,902] {logging_mixin.py:115} INFO - [2024-03-25 19:27:09,902] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:27:09,902] {logging_mixin.py:115} INFO - [2024-03-25 19:27:09,902] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:27:09,903] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:27:09,913] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.044 seconds
+[2024-03-25 19:27:45,911] {processor.py:153} INFO - Started process (PID=1876177) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:27:45,917] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:27:45,918] {logging_mixin.py:115} INFO - [2024-03-25 19:27:45,918] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:27:45,953] {logging_mixin.py:115} INFO - [2024-03-25 19:27:45,953] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:27:45,953] {logging_mixin.py:115} INFO - [2024-03-25 19:27:45,953] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:27:45,953] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:27:45,962] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.056 seconds
+[2024-03-25 19:28:19,633] {processor.py:153} INFO - Started process (PID=1876511) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:28:19,639] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:28:19,639] {logging_mixin.py:115} INFO - [2024-03-25 19:28:19,639] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:28:19,660] {logging_mixin.py:115} INFO - [2024-03-25 19:28:19,659] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:28:19,660] {logging_mixin.py:115} INFO - [2024-03-25 19:28:19,660] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:28:19,660] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:28:19,670] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.039 seconds
+[2024-03-25 19:28:55,101] {processor.py:153} INFO - Started process (PID=1876873) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:28:55,104] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:28:55,105] {logging_mixin.py:115} INFO - [2024-03-25 19:28:55,105] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:28:55,120] {logging_mixin.py:115} INFO - [2024-03-25 19:28:55,120] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:28:55,120] {logging_mixin.py:115} INFO - [2024-03-25 19:28:55,120] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:28:55,120] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:28:55,126] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2024-03-25 19:29:30,505] {processor.py:153} INFO - Started process (PID=1877228) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:29:30,511] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:29:30,513] {logging_mixin.py:115} INFO - [2024-03-25 19:29:30,512] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:29:30,542] {logging_mixin.py:115} INFO - [2024-03-25 19:29:30,542] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:29:30,543] {logging_mixin.py:115} INFO - [2024-03-25 19:29:30,543] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:29:30,543] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:29:30,550] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.052 seconds
+[2024-03-25 19:30:04,405] {processor.py:153} INFO - Started process (PID=1877571) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:30:04,411] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:30:04,412] {logging_mixin.py:115} INFO - [2024-03-25 19:30:04,412] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:30:04,442] {logging_mixin.py:115} INFO - [2024-03-25 19:30:04,442] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:30:04,443] {logging_mixin.py:115} INFO - [2024-03-25 19:30:04,443] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:30:04,443] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:30:04,451] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2024-03-25 19:30:38,003] {processor.py:153} INFO - Started process (PID=1877914) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:30:38,006] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:30:38,006] {logging_mixin.py:115} INFO - [2024-03-25 19:30:38,006] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:30:38,021] {logging_mixin.py:115} INFO - [2024-03-25 19:30:38,021] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:30:38,021] {logging_mixin.py:115} INFO - [2024-03-25 19:30:38,021] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:30:38,021] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:30:38,029] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2024-03-25 19:31:12,038] {processor.py:153} INFO - Started process (PID=1878401) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:31:12,043] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:31:12,044] {logging_mixin.py:115} INFO - [2024-03-25 19:31:12,044] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:31:12,064] {logging_mixin.py:115} INFO - [2024-03-25 19:31:12,063] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:31:12,064] {logging_mixin.py:115} INFO - [2024-03-25 19:31:12,064] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:31:12,064] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:31:12,072] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.037 seconds
+[2024-03-25 19:31:46,448] {processor.py:153} INFO - Started process (PID=1878861) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:31:46,453] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:31:46,454] {logging_mixin.py:115} INFO - [2024-03-25 19:31:46,454] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:31:46,469] {logging_mixin.py:115} INFO - [2024-03-25 19:31:46,468] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:31:46,469] {logging_mixin.py:115} INFO - [2024-03-25 19:31:46,469] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:31:46,469] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:31:46,475] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2024-03-25 19:32:19,097] {processor.py:153} INFO - Started process (PID=1879272) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:32:19,098] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:32:19,099] {logging_mixin.py:115} INFO - [2024-03-25 19:32:19,099] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:32:19,123] {logging_mixin.py:115} INFO - [2024-03-25 19:32:19,123] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:32:19,123] {logging_mixin.py:115} INFO - [2024-03-25 19:32:19,123] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:32:19,124] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:32:19,131] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.042 seconds
+[2024-03-25 19:32:52,724] {processor.py:153} INFO - Started process (PID=1879675) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:32:52,727] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:32:52,728] {logging_mixin.py:115} INFO - [2024-03-25 19:32:52,728] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:32:52,741] {logging_mixin.py:115} INFO - [2024-03-25 19:32:52,741] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:32:52,741] {logging_mixin.py:115} INFO - [2024-03-25 19:32:52,741] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:32:52,741] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:32:52,749] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2024-03-25 19:33:24,848] {processor.py:153} INFO - Started process (PID=1880147) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:33:24,848] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:33:24,849] {logging_mixin.py:115} INFO - [2024-03-25 19:33:24,849] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:33:24,859] {logging_mixin.py:115} INFO - [2024-03-25 19:33:24,859] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:33:24,859] {logging_mixin.py:115} INFO - [2024-03-25 19:33:24,859] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:33:24,859] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:33:24,866] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2024-03-25 19:33:57,560] {processor.py:153} INFO - Started process (PID=1880628) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:33:57,566] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:33:57,568] {logging_mixin.py:115} INFO - [2024-03-25 19:33:57,568] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:33:57,595] {logging_mixin.py:115} INFO - [2024-03-25 19:33:57,595] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:33:57,595] {logging_mixin.py:115} INFO - [2024-03-25 19:33:57,595] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:33:57,596] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:33:57,604] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.051 seconds
+[2024-03-25 19:34:29,666] {processor.py:153} INFO - Started process (PID=1881124) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:34:29,671] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:34:29,672] {logging_mixin.py:115} INFO - [2024-03-25 19:34:29,672] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:34:29,683] {logging_mixin.py:115} INFO - [2024-03-25 19:34:29,683] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:34:29,684] {logging_mixin.py:115} INFO - [2024-03-25 19:34:29,684] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:34:29,684] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:34:29,691] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2024-03-25 19:35:01,927] {processor.py:153} INFO - Started process (PID=1881607) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:35:01,929] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:35:01,930] {logging_mixin.py:115} INFO - [2024-03-25 19:35:01,930] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:35:01,947] {logging_mixin.py:115} INFO - [2024-03-25 19:35:01,946] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:35:01,947] {logging_mixin.py:115} INFO - [2024-03-25 19:35:01,947] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:35:01,947] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:35:01,956] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds
+[2024-03-25 19:35:35,726] {processor.py:153} INFO - Started process (PID=1882113) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:35:35,728] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:35:35,729] {logging_mixin.py:115} INFO - [2024-03-25 19:35:35,729] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:35:35,747] {logging_mixin.py:115} INFO - [2024-03-25 19:35:35,746] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:35:35,747] {logging_mixin.py:115} INFO - [2024-03-25 19:35:35,747] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:35:35,747] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:35:35,756] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.037 seconds
+[2024-03-25 19:36:08,928] {processor.py:153} INFO - Started process (PID=1882587) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:36:08,931] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:36:08,931] {logging_mixin.py:115} INFO - [2024-03-25 19:36:08,931] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:36:08,942] {logging_mixin.py:115} INFO - [2024-03-25 19:36:08,942] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:36:08,943] {logging_mixin.py:115} INFO - [2024-03-25 19:36:08,943] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:36:08,943] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:36:08,949] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2024-03-25 19:36:42,549] {processor.py:153} INFO - Started process (PID=1883116) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:36:42,555] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:36:42,557] {logging_mixin.py:115} INFO - [2024-03-25 19:36:42,556] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:36:42,583] {logging_mixin.py:115} INFO - [2024-03-25 19:36:42,582] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:36:42,583] {logging_mixin.py:115} INFO - [2024-03-25 19:36:42,583] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:36:42,583] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:36:42,599] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.058 seconds
+[2024-03-25 19:37:16,300] {processor.py:153} INFO - Started process (PID=1883608) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:37:16,306] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:37:16,307] {logging_mixin.py:115} INFO - [2024-03-25 19:37:16,307] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:37:16,335] {logging_mixin.py:115} INFO - [2024-03-25 19:37:16,334] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:37:16,335] {logging_mixin.py:115} INFO - [2024-03-25 19:37:16,335] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:37:16,335] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:37:16,343] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.051 seconds
+[2024-03-25 19:37:49,479] {processor.py:153} INFO - Started process (PID=1884102) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:37:49,481] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:37:49,483] {logging_mixin.py:115} INFO - [2024-03-25 19:37:49,483] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:37:49,508] {logging_mixin.py:115} INFO - [2024-03-25 19:37:49,507] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:37:49,508] {logging_mixin.py:115} INFO - [2024-03-25 19:37:49,508] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:37:49,508] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:37:49,517] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.045 seconds
+[2024-03-25 19:38:22,055] {processor.py:153} INFO - Started process (PID=1884573) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:38:22,061] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:38:22,062] {logging_mixin.py:115} INFO - [2024-03-25 19:38:22,062] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:38:22,086] {logging_mixin.py:115} INFO - [2024-03-25 19:38:22,086] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:38:22,086] {logging_mixin.py:115} INFO - [2024-03-25 19:38:22,086] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:38:22,086] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:38:22,095] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.048 seconds
+[2024-03-25 19:38:54,680] {processor.py:153} INFO - Started process (PID=1885059) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:38:54,681] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:38:54,683] {logging_mixin.py:115} INFO - [2024-03-25 19:38:54,682] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:38:54,705] {logging_mixin.py:115} INFO - [2024-03-25 19:38:54,705] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:38:54,705] {logging_mixin.py:115} INFO - [2024-03-25 19:38:54,705] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:38:54,705] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:38:54,713] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2024-03-25 19:39:29,607] {processor.py:153} INFO - Started process (PID=1885554) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:39:29,613] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:39:29,614] {logging_mixin.py:115} INFO - [2024-03-25 19:39:29,614] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:39:29,642] {logging_mixin.py:115} INFO - [2024-03-25 19:39:29,642] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:39:29,643] {logging_mixin.py:115} INFO - [2024-03-25 19:39:29,643] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:39:29,643] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:39:29,651] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.051 seconds
+[2024-03-25 19:40:02,680] {processor.py:153} INFO - Started process (PID=1886051) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:40:02,681] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:40:02,682] {logging_mixin.py:115} INFO - [2024-03-25 19:40:02,682] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:40:02,699] {logging_mixin.py:115} INFO - [2024-03-25 19:40:02,698] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:40:02,699] {logging_mixin.py:115} INFO - [2024-03-25 19:40:02,699] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:40:02,699] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:40:02,707] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.034 seconds
+[2024-03-25 19:40:34,181] {processor.py:153} INFO - Started process (PID=1886512) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:40:34,182] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:40:34,183] {logging_mixin.py:115} INFO - [2024-03-25 19:40:34,182] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:40:34,202] {logging_mixin.py:115} INFO - [2024-03-25 19:40:34,202] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:40:34,203] {logging_mixin.py:115} INFO - [2024-03-25 19:40:34,202] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:40:34,203] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:40:34,213] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.035 seconds
+[2024-03-25 19:41:12,643] {processor.py:153} INFO - Started process (PID=1887082) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:41:12,648] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:41:12,650] {logging_mixin.py:115} INFO - [2024-03-25 19:41:12,650] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:41:12,679] {logging_mixin.py:115} INFO - [2024-03-25 19:41:12,679] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:41:12,679] {logging_mixin.py:115} INFO - [2024-03-25 19:41:12,679] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:41:12,680] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:41:12,688] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.049 seconds
+[2024-03-25 19:41:45,824] {processor.py:153} INFO - Started process (PID=1887543) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:41:45,830] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:41:45,832] {logging_mixin.py:115} INFO - [2024-03-25 19:41:45,831] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:41:45,858] {logging_mixin.py:115} INFO - [2024-03-25 19:41:45,858] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:41:45,859] {logging_mixin.py:115} INFO - [2024-03-25 19:41:45,858] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:41:45,859] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:41:45,867] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.050 seconds
+[2024-03-25 19:42:17,175] {processor.py:153} INFO - Started process (PID=1887954) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:42:17,175] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:42:17,176] {logging_mixin.py:115} INFO - [2024-03-25 19:42:17,176] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:42:17,191] {logging_mixin.py:115} INFO - [2024-03-25 19:42:17,191] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:42:17,191] {logging_mixin.py:115} INFO - [2024-03-25 19:42:17,191] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:42:17,191] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:42:17,200] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2024-03-25 19:42:51,824] {processor.py:153} INFO - Started process (PID=1888472) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:42:51,827] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:42:51,828] {logging_mixin.py:115} INFO - [2024-03-25 19:42:51,828] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:42:51,854] {logging_mixin.py:115} INFO - [2024-03-25 19:42:51,854] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:42:51,854] {logging_mixin.py:115} INFO - [2024-03-25 19:42:51,854] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:42:51,855] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:42:51,863] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.046 seconds
+[2024-03-25 19:43:29,575] {processor.py:153} INFO - Started process (PID=1889012) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:43:29,582] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:43:29,583] {logging_mixin.py:115} INFO - [2024-03-25 19:43:29,583] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:43:29,612] {logging_mixin.py:115} INFO - [2024-03-25 19:43:29,612] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:43:29,613] {logging_mixin.py:115} INFO - [2024-03-25 19:43:29,612] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:43:29,613] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:43:29,621] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.052 seconds
+[2024-03-25 19:44:08,939] {processor.py:153} INFO - Started process (PID=1889594) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:44:08,945] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:44:08,945] {logging_mixin.py:115} INFO - [2024-03-25 19:44:08,945] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:44:08,960] {logging_mixin.py:115} INFO - [2024-03-25 19:44:08,960] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:44:08,960] {logging_mixin.py:115} INFO - [2024-03-25 19:44:08,960] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:44:08,960] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:44:08,970] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2024-03-25 19:44:47,630] {processor.py:153} INFO - Started process (PID=1890147) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:44:47,636] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:44:47,637] {logging_mixin.py:115} INFO - [2024-03-25 19:44:47,637] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:44:47,666] {logging_mixin.py:115} INFO - [2024-03-25 19:44:47,666] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:44:47,667] {logging_mixin.py:115} INFO - [2024-03-25 19:44:47,667] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:44:47,667] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:44:47,676] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.053 seconds
+[2024-03-25 19:45:20,907] {processor.py:153} INFO - Started process (PID=1890644) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:45:20,913] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:45:20,913] {logging_mixin.py:115} INFO - [2024-03-25 19:45:20,913] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:45:20,928] {logging_mixin.py:115} INFO - [2024-03-25 19:45:20,928] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:45:20,928] {logging_mixin.py:115} INFO - [2024-03-25 19:45:20,928] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:45:20,928] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:45:20,937] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds
+[2024-03-25 19:45:59,944] {processor.py:153} INFO - Started process (PID=1891225) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:45:59,950] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:45:59,952] {logging_mixin.py:115} INFO - [2024-03-25 19:45:59,952] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:45:59,984] {logging_mixin.py:115} INFO - [2024-03-25 19:45:59,983] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:45:59,984] {logging_mixin.py:115} INFO - [2024-03-25 19:45:59,984] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:45:59,984] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:45:59,994] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.051 seconds
+[2024-03-25 19:46:37,543] {processor.py:153} INFO - Started process (PID=1891793) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:46:37,549] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:46:37,551] {logging_mixin.py:115} INFO - [2024-03-25 19:46:37,550] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:46:37,575] {logging_mixin.py:115} INFO - [2024-03-25 19:46:37,574] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:46:37,575] {logging_mixin.py:115} INFO - [2024-03-25 19:46:37,575] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:46:37,575] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:46:37,583] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.047 seconds
+[2024-03-25 19:47:14,351] {processor.py:153} INFO - Started process (PID=1892318) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:47:14,357] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:47:14,358] {logging_mixin.py:115} INFO - [2024-03-25 19:47:14,358] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:47:14,387] {logging_mixin.py:115} INFO - [2024-03-25 19:47:14,386] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:47:14,387] {logging_mixin.py:115} INFO - [2024-03-25 19:47:14,387] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:47:14,387] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:47:14,396] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.053 seconds
+[2024-03-25 19:47:51,212] {processor.py:153} INFO - Started process (PID=1892853) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:47:51,218] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:47:51,220] {logging_mixin.py:115} INFO - [2024-03-25 19:47:51,220] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:47:51,249] {logging_mixin.py:115} INFO - [2024-03-25 19:47:51,249] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:47:51,249] {logging_mixin.py:115} INFO - [2024-03-25 19:47:51,249] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:47:51,249] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:47:51,258] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2024-03-25 19:48:25,426] {processor.py:153} INFO - Started process (PID=1893365) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:48:25,431] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:48:25,432] {logging_mixin.py:115} INFO - [2024-03-25 19:48:25,432] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:48:25,443] {logging_mixin.py:115} INFO - [2024-03-25 19:48:25,442] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:48:25,443] {logging_mixin.py:115} INFO - [2024-03-25 19:48:25,443] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:48:25,443] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:48:25,450] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2024-03-25 19:48:57,717] {processor.py:153} INFO - Started process (PID=1893849) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:48:57,720] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:48:57,721] {logging_mixin.py:115} INFO - [2024-03-25 19:48:57,721] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:48:57,734] {logging_mixin.py:115} INFO - [2024-03-25 19:48:57,733] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:48:57,734] {logging_mixin.py:115} INFO - [2024-03-25 19:48:57,734] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:48:57,734] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:48:57,743] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2024-03-25 19:49:32,599] {processor.py:153} INFO - Started process (PID=1894342) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:49:32,605] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:49:32,606] {logging_mixin.py:115} INFO - [2024-03-25 19:49:32,606] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:49:32,637] {logging_mixin.py:115} INFO - [2024-03-25 19:49:32,637] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:49:32,637] {logging_mixin.py:115} INFO - [2024-03-25 19:49:32,637] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:49:32,638] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:49:32,646] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2024-03-25 19:50:04,472] {processor.py:153} INFO - Started process (PID=1894828) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:50:04,475] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:50:04,475] {logging_mixin.py:115} INFO - [2024-03-25 19:50:04,475] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:50:04,491] {logging_mixin.py:115} INFO - [2024-03-25 19:50:04,490] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:50:04,491] {logging_mixin.py:115} INFO - [2024-03-25 19:50:04,491] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:50:04,491] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:50:04,500] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.031 seconds
+[2024-03-25 19:50:37,775] {processor.py:153} INFO - Started process (PID=1895415) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:50:37,781] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:50:37,782] {logging_mixin.py:115} INFO - [2024-03-25 19:50:37,782] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:50:37,805] {logging_mixin.py:115} INFO - [2024-03-25 19:50:37,804] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:50:37,805] {logging_mixin.py:115} INFO - [2024-03-25 19:50:37,805] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:50:37,805] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:50:37,813] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.047 seconds
+[2024-03-25 19:51:10,314] {processor.py:153} INFO - Started process (PID=1895909) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:51:10,320] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:51:10,322] {logging_mixin.py:115} INFO - [2024-03-25 19:51:10,321] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:51:10,340] {logging_mixin.py:115} INFO - [2024-03-25 19:51:10,340] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:51:10,340] {logging_mixin.py:115} INFO - [2024-03-25 19:51:10,340] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:51:10,340] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:51:10,348] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2024-03-25 19:51:43,593] {processor.py:153} INFO - Started process (PID=1896398) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:51:43,595] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:51:43,596] {logging_mixin.py:115} INFO - [2024-03-25 19:51:43,596] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:51:43,614] {logging_mixin.py:115} INFO - [2024-03-25 19:51:43,614] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:51:43,614] {logging_mixin.py:115} INFO - [2024-03-25 19:51:43,614] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:51:43,615] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:51:43,625] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.035 seconds
+[2024-03-25 19:52:19,500] {processor.py:153} INFO - Started process (PID=1896926) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:52:19,507] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:52:19,508] {logging_mixin.py:115} INFO - [2024-03-25 19:52:19,508] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:52:19,536] {logging_mixin.py:115} INFO - [2024-03-25 19:52:19,536] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:52:19,536] {logging_mixin.py:115} INFO - [2024-03-25 19:52:19,536] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:52:19,537] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:52:19,545] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.052 seconds
+[2024-03-25 19:52:52,655] {processor.py:153} INFO - Started process (PID=1897428) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:52:52,662] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:52:52,663] {logging_mixin.py:115} INFO - [2024-03-25 19:52:52,662] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:52:52,682] {logging_mixin.py:115} INFO - [2024-03-25 19:52:52,681] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:52:52,682] {logging_mixin.py:115} INFO - [2024-03-25 19:52:52,682] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:52:52,682] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:52:52,690] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.042 seconds
+[2024-03-25 19:53:25,704] {processor.py:153} INFO - Started process (PID=1897911) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:53:25,710] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:53:25,711] {logging_mixin.py:115} INFO - [2024-03-25 19:53:25,711] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:53:25,742] {logging_mixin.py:115} INFO - [2024-03-25 19:53:25,742] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:53:25,743] {logging_mixin.py:115} INFO - [2024-03-25 19:53:25,743] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:53:25,743] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:53:25,752] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.050 seconds
+[2024-03-25 19:53:58,357] {processor.py:153} INFO - Started process (PID=1898391) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:53:58,363] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:53:58,364] {logging_mixin.py:115} INFO - [2024-03-25 19:53:58,364] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:53:58,391] {logging_mixin.py:115} INFO - [2024-03-25 19:53:58,391] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:53:58,391] {logging_mixin.py:115} INFO - [2024-03-25 19:53:58,391] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:53:58,392] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:53:58,400] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.051 seconds
+[2024-03-25 19:54:32,188] {processor.py:153} INFO - Started process (PID=1898903) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:54:32,189] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:54:32,189] {logging_mixin.py:115} INFO - [2024-03-25 19:54:32,189] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:54:32,207] {logging_mixin.py:115} INFO - [2024-03-25 19:54:32,207] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:54:32,207] {logging_mixin.py:115} INFO - [2024-03-25 19:54:32,207] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:54:32,207] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:54:32,215] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.031 seconds
+[2024-03-25 19:55:05,362] {processor.py:153} INFO - Started process (PID=1899407) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:55:05,368] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:55:05,369] {logging_mixin.py:115} INFO - [2024-03-25 19:55:05,369] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:55:05,404] {logging_mixin.py:115} INFO - [2024-03-25 19:55:05,403] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:55:05,404] {logging_mixin.py:115} INFO - [2024-03-25 19:55:05,404] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:55:05,404] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:55:05,414] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.059 seconds
+[2024-03-25 19:55:38,508] {processor.py:153} INFO - Started process (PID=1899875) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:55:38,510] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:55:38,510] {logging_mixin.py:115} INFO - [2024-03-25 19:55:38,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:55:38,532] {logging_mixin.py:115} INFO - [2024-03-25 19:55:38,532] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:55:38,532] {logging_mixin.py:115} INFO - [2024-03-25 19:55:38,532] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:55:38,532] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:55:38,541] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.037 seconds
+[2024-03-25 19:56:12,089] {processor.py:153} INFO - Started process (PID=1900377) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:56:12,095] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:56:12,096] {logging_mixin.py:115} INFO - [2024-03-25 19:56:12,096] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:56:12,123] {logging_mixin.py:115} INFO - [2024-03-25 19:56:12,123] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:56:12,123] {logging_mixin.py:115} INFO - [2024-03-25 19:56:12,123] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:56:12,124] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:56:12,132] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.050 seconds
+[2024-03-25 19:56:44,552] {processor.py:153} INFO - Started process (PID=1900873) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:56:44,557] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:56:44,558] {logging_mixin.py:115} INFO - [2024-03-25 19:56:44,558] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:56:44,576] {logging_mixin.py:115} INFO - [2024-03-25 19:56:44,576] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:56:44,576] {logging_mixin.py:115} INFO - [2024-03-25 19:56:44,576] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:56:44,576] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:56:44,584] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.035 seconds
+[2024-03-25 19:57:16,171] {processor.py:153} INFO - Started process (PID=1901342) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:57:16,173] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:57:16,174] {logging_mixin.py:115} INFO - [2024-03-25 19:57:16,174] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:57:16,193] {logging_mixin.py:115} INFO - [2024-03-25 19:57:16,193] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:57:16,193] {logging_mixin.py:115} INFO - [2024-03-25 19:57:16,193] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:57:16,194] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:57:16,203] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.035 seconds
+[2024-03-25 19:57:49,437] {processor.py:153} INFO - Started process (PID=1901838) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:57:49,442] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:57:49,442] {logging_mixin.py:115} INFO - [2024-03-25 19:57:49,442] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:57:49,452] {logging_mixin.py:115} INFO - [2024-03-25 19:57:49,452] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:57:49,452] {logging_mixin.py:115} INFO - [2024-03-25 19:57:49,452] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:57:49,452] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:57:49,458] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2024-03-25 19:58:23,276] {processor.py:153} INFO - Started process (PID=1902331) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:58:23,282] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:58:23,283] {logging_mixin.py:115} INFO - [2024-03-25 19:58:23,283] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:58:23,312] {logging_mixin.py:115} INFO - [2024-03-25 19:58:23,312] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:58:23,312] {logging_mixin.py:115} INFO - [2024-03-25 19:58:23,312] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:58:23,312] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:58:23,321] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.052 seconds
+[2024-03-25 19:58:56,569] {processor.py:153} INFO - Started process (PID=1902848) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:58:56,574] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:58:56,575] {logging_mixin.py:115} INFO - [2024-03-25 19:58:56,575] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:58:56,591] {logging_mixin.py:115} INFO - [2024-03-25 19:58:56,590] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:58:56,591] {logging_mixin.py:115} INFO - [2024-03-25 19:58:56,591] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:58:56,591] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:58:56,600] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.034 seconds
+[2024-03-25 19:59:27,637] {processor.py:153} INFO - Started process (PID=1903330) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:59:27,638] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 19:59:27,639] {logging_mixin.py:115} INFO - [2024-03-25 19:59:27,639] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:59:27,665] {logging_mixin.py:115} INFO - [2024-03-25 19:59:27,665] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 19:59:27,665] {logging_mixin.py:115} INFO - [2024-03-25 19:59:27,665] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 19:59:27,665] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 19:59:27,674] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.044 seconds
+[2024-03-25 20:00:01,143] {processor.py:153} INFO - Started process (PID=1903745) to work on /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 20:00:01,149] {processor.py:641} INFO - Processing file /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-25 20:00:01,150] {logging_mixin.py:115} INFO - [2024-03-25 20:00:01,150] {dagbag.py:507} INFO - Filling up the DagBag from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 20:00:01,178] {logging_mixin.py:115} INFO - [2024-03-25 20:00:01,178] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-25 20:00:01,179] {logging_mixin.py:115} INFO - [2024-03-25 20:00:01,179] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-25 20:00:01,179] {processor.py:653} WARNING - No viable dags retrieved from /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-25 20:00:01,188] {processor.py:161} INFO - Processing /home/sheyla/Documents/Repositórios/apache-airflow-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.047 seconds
